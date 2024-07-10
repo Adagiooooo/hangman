@@ -44,7 +44,7 @@ function play() {
   chosenWordArr = chosenWord.split('');
   wordsAct.splice(randomWordNum, 1);
   mysteryWord = [];
-console.log(chosenWord);
+//console.log(chosenWord);
   for (i = 0; i < chosenWord.length; i++) {
     mysteryWord[i] = "_";
   }
@@ -104,7 +104,7 @@ document.getElementById('keyboard-cont').addEventListener('click', function(even
           buttons[i].disabled = true;
       }
       correctNumCounter++;
-      console.log(correctNumCounter);
+      //console.log(correctNumCounter);
     }
   }
 });
